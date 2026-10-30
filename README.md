@@ -82,7 +82,7 @@ Use this endpoint to inspect the stored-record count before and after manual POS
 From this folder:
 
 ```bash
-JAVA_HOME=/Users/sulaimonlawal/Library/Java/JavaVirtualMachines/ms-17.0.19/Contents/Home mvn clean test
+mvn clean test
 ```
 
 The project includes ordinary Spring Boot test dependencies but intentionally does not include a validation regression test suite or Postman artifacts.
